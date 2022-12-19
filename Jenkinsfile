@@ -11,12 +11,12 @@ pipeline{
         }
         stage('docker image build') {
             steps{
-                sh 'docker image build -t yaswitha/saleor-dashboard:DEV .'
+                sh 'docker image build -t yaswithaa/saleor-dashboard:DEV .'
             }
         }
         stage('docker image push') {
             steps{
-                sh 'docker push yaswitha/saleor-dashboard:DEV'
+                sh 'docker push yaswithaa/saleor-dashboard:DEV'
             }
         }
 
