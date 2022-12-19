@@ -16,7 +16,7 @@ pipeline{
         }
         stage('docker image push') {
             steps{
-                sh 'docker push yaswithaa/saleor-dashboard:DEV'
+                sh 'docker push yaswitha/saleor-dashboard:DEV'
             }
         }
 
