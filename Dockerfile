@@ -4,7 +4,7 @@ COPY package*.json ./
 COPY scripts/patchReactVirtualized.js scripts/
 ENV CI 1
 RUN npm ci --omit=optional --legacy-peer-deps
-
+//added some data
 COPY nginx/ nginx/
 COPY assets/ assets/
 COPY locale/ locale/
